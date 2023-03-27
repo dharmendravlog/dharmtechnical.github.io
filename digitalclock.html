@@ -31,9 +31,13 @@
             var s = date.getSeconds();
             var session = "";
 
-            if (h == 0) {h = 12;}//12 hour format}
-            if (h > 12) {h = h - 12;//12 hour format
-                session = "PM";}
+            if (h == 0) {
+                h = 12;         //12 hour format
+            }
+            if (h > 12) {
+                h = h - 12;     //12 hour format
+                session = "PM";
+            }
 
             //if (h < 10) { //0-9  h = "0" + h;}
             //if (m < 10) {  m = "0" + m;}
